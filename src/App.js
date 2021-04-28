@@ -1,13 +1,18 @@
 
  
 import './App.css';  
-import LoginForm from './components/Form';
+import ChatHook from './components/ChatHooks';
+import SizeWindow from './components/SizeWindowHook';
+ 
  
  
 function App() {
   return (
     <div className="App">
-       <LoginForm/>
+     
+       <ChatHook/>,
+       <SizeWindow/>
+       
     </div>
   );
 }
