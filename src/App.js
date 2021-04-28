@@ -1,17 +1,18 @@
 
  
 import './App.css';  
-import ChatHook from './components/ChatHooks';
-import SizeWindow from './components/SizeWindowHook';
  
+import Reducer from './components/Reducer';
+  
  
  
 function App() {
   return (
     <div className="App">
      
-       <ChatHook/>,
-       <SizeWindow/>
+       {/* <ClassSize/>,
+       <RenderList/>, */}
+       <Reducer/>
        
     </div>
   );
